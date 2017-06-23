@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("this is a Git tutorial")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

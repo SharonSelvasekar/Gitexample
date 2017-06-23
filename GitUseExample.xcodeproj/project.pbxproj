@@ -96,7 +96,8 @@
 				TargetAttributes = {
 					55526E0F1EFD4487002CD73B = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = JU8945KH6A;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -262,10 +263,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JU8945KH6A;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Vishwaksolutions.GitUseExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dt.dtrevamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b5fa4ab0-cc40-40b1-80ee-d8e657132d2b";
+				PROVISIONING_PROFILE_SPECIFIER = DTNewsRevamp_Prov_Dev_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JU8945KH6A;
 				INFOPLIST_FILE = GitUseExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Vishwaksolutions.GitUseExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dt.dtrevamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b5fa4ab0-cc40-40b1-80ee-d8e657132d2b";
+				PROVISIONING_PROFILE_SPECIFIER = DTNewsRevamp_Prov_Dev_Profile;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
