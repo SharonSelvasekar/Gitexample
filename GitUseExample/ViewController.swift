@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     }
     func setBackgroundColor(){
         self.view.backgroundColor = UIColor.black
+        //Comment line added 
     }
     func addNewFeature(){
         print("New  feature added")
