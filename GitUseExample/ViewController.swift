@@ -14,9 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("this is a Git tutorial")
         print("Second line of comment")
+        self.setBackgroundColor()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    func setBackgroundColor(){
+        self.view.backgroundColor = UIColor.black
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
