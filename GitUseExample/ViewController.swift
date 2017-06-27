@@ -15,10 +15,14 @@ class ViewController: UIViewController {
         print("this is a Git tutorial")
         print("Second line of comment")
         self.setBackgroundColor()
+        self.addNewFeature()
         // Do any additional setup after loading the view, typically from a nib.
     }
     func setBackgroundColor(){
         self.view.backgroundColor = UIColor.black
+    }
+    func addNewFeature(){
+        print("New  feature added")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
